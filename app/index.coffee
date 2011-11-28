@@ -11,7 +11,7 @@ class App extends Spine.Controller
   constructor: ->
     super
     if !(window.File and window.FileReader and window.FileList and window.Blob)
-      alert 'The File APIs are not fully supported in this browser.'
+      alert 'The File APIs are not fully supported in this browser. Use Chrome instead'
 
     @html require('views/upload')
 

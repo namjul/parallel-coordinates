@@ -8,7 +8,7 @@ class Axis extends Spine.Controller
     'mousedown .axis-data': 'activate'
     'mousemove .axis-data': 'mousemove'
     'mouseup .axis-data': 'deactivate'
-    'mouseleave .axis-data': 'deactivate'
+    'mouseleave .axis-wrapper': 'deactivate'
     'dblclick .axis-filter': 'removeFilter'
     'click .axis-data': 'select'
 
