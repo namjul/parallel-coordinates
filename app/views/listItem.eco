@@ -1,0 +1,8 @@
+<tr id="data-item">
+      <td class="id" style="display:none"></td>
+  <% if @columns.length: %>
+    <% for col in @columns: %>
+      <td class="<%= col.toLowerCase() %>"></td>
+    <% end %>
+  <% end %>
+</tr>

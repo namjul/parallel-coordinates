@@ -1,0 +1,13 @@
+require('json2ify')
+require('es5-shimify')
+require('jqueryify')
+#require('lib/underscore-min')
+require('lib/jquery-ui-1.8.16.custom.min')
+require('lib/csvjson')
+
+require('spine')
+require('spine/lib/local')
+require('spine/lib/ajax')
+require('spine/lib/manager')
+require('spine/lib/route')
+require('spine/lib/tmpl')

@@ -1,0 +1,2 @@
+<canvas class="coordinates" width="<%= @width %>" height="<%= @height %>"></canvas>
+<canvas class="selection" width="<%= @width %>" height="<%= @height %>"></canvas>

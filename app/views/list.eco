@@ -1,0 +1,13 @@
+<table id="data-list">
+  <thead>
+  <% if @columns.length: %>
+    <tr>
+    <% for col in @columns: %>
+      <th rel="<%= col.toLowerCase() %>"><%= col %></th>
+    <% end %>
+    </tr>
+  <% end %>
+  </thead>
+  <tbody class="list">
+  </tbody>
+</table>

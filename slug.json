@@ -1,0 +1,17 @@
+{
+  "dependencies": [
+    "es5-shimify", 
+    "json2ify", 
+    "jqueryify", 
+    "spine",
+    "spine/lib/local",
+    "spine/lib/ajax",
+    "spine/lib/route",
+    "spine/lib/tmpl",
+    "spine/lib/manager"
+  ],
+  "libs": [
+    "./app/lib/underscore-min.js", 
+    "./app/lib/list.min.js" 
+  ]
+}

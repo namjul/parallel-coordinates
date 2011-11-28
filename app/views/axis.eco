@@ -1,0 +1,6 @@
+<div class="axis-meta top"><%= @name %><span><%= @range.max %></span></div>
+<div class="axis-wrapper">
+  <canvas class="axis-data" width="40" height="<%= @height %>"></canvas>
+  <div class="axis-filter"></div>
+</div>
+<div class="axis-meta bottom"><span><%= @range.min %></span></div>
